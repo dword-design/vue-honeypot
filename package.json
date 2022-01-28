@@ -1,6 +1,12 @@
 {
   "name": "vue-honeypot",
   "version": "1.0.0",
+  "description": "A simple honeypot component for Vue.js.",
+  "keywords": [
+    "component",
+    "frontend",
+    "spam protection"
+  ],
   "repository": "dword-design/vue-honeypot",
   "funding": "https://github.com/sponsors/dword-design",
   "license": "MIT",

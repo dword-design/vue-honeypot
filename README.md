@@ -50,8 +50,18 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-
+A simple honeypot component for Vue.js.
 <!-- /DESCRIPTION -->
+
+A honeypot is an artificial input field that is invisible to the user but visible to spambots. Spambots try to fill out as many fields as possible, so this is an effective way to detect a spambot.
+
+## Features
+
+* Component and validation function
+* Does not use `display: none` but instead `position: absolute` and `opacity: 0`, because some spambots detect `display: none`
+* Hide the component for screen readers
+* Disable autocomplete
+* Disable tab focus
 
 <!-- INSTALL/ -->
 ## Install via a package manager
@@ -103,6 +113,43 @@ Vue.use(VueHoneypot)
 <script src="https://unpkg.com/vue-honeypot"></script>
 ```
 <!-- /INSTALL -->
+
+## Usage
+
+Add the component to your form and add a `ref`:
+
+```html
+<template>
+  <form @submit="submit">
+    <label for="email">Email</label>
+    <input type="email" id="email" />
+
+    <label for="password">Password</label>
+    <input type="password" id="password" />
+
+    <!-- Setup the honeypot -->
+    <vue-honeypot ref="honeypot" />
+  </form>
+</template>
+```
+
+Then validate the honeypot in the `submit` function:
+
+```js
+<script>
+export default {
+  methods: {
+    submit() {
+      try {
+        this.$refs.honeypot.validate()
+      } catch (error) {
+        // error handling
+      }
+    },
+  },
+}
+</script>
+```
 
 <!-- LICENSE/ -->
 ## Contribute
