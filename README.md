@@ -58,7 +58,7 @@ A honeypot is an artificial input field that is invisible to the user but visibl
 ## Features
 
 * Component and validation function
-* Does not use `display: none` but instead `position: absolute` and `opacity: 0`, because some spambots detect `display: none`
+* Uses `position: absolute` and `opacity: 0` instead of `display: none` because some spambots detect `display: none`
 * Hide the component for screen readers
 * Disable autocomplete
 * Disable tab focus
