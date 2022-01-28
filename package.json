@@ -1,0 +1,33 @@
+{
+  "name": "vue-honeypot",
+  "version": "1.0.0",
+  "repository": "dword-design/vue-honeypot",
+  "funding": "https://github.com/sponsors/dword-design",
+  "license": "MIT",
+  "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
+  "main": "dist/index.ssr.js",
+  "unpkg": "dist/index.min.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "checkUnknownFiles": "base checkUnknownFiles",
+    "commit": "base commit",
+    "lint": "base lint",
+    "prepare": "base prepare",
+    "prepublishOnly": "base prepublishOnly",
+    "test": "base test"
+  },
+  "devDependencies": {
+    "@dword-design/base": "^8.6.12",
+    "@dword-design/base-config-component": "^1.1.35"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
