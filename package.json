@@ -5,7 +5,9 @@
   "keywords": [
     "component",
     "frontend",
-    "spam protection"
+    "spam",
+    "spam-detection",
+    "spam-filtering"
   ],
   "repository": "dword-design/vue-honeypot",
   "funding": "https://github.com/sponsors/dword-design",
