@@ -76,7 +76,7 @@ $ yarn add vue-honeypot
 
 Add to local components:
 
-```js
+```html
 <script>
 import VueHoneypot from 'vue-honeypot'
 
