@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/dword-design/vue-honeypot/compare/v1.0.4...v1.0.5) (2022-02-08)
+
+
+### Bug Fixes
+
+* write GitHub metadata to package.json [keywords] ([1dadf87](https://github.com/dword-design/vue-honeypot/commit/1dadf87783be49ac0972f3be6b675aab0290afa4))
+
 ## [1.0.4](https://github.com/dword-design/vue-honeypot/compare/v1.0.3...v1.0.4) (2022-02-01)
 
 
