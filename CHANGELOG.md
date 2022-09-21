@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/dword-design/vue-honeypot/compare/v1.0.5...v1.0.6) (2022-09-21)
+
+
+### Bug Fixes
+
+* update config files ([e9f61ea](https://github.com/dword-design/vue-honeypot/commit/e9f61ea71756db22a256f098a288cf9cf0bde897))
+
 ## [1.0.5](https://github.com/dword-design/vue-honeypot/compare/v1.0.4...v1.0.5) (2022-02-08)
 
 
