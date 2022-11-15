@@ -32,7 +32,7 @@
     "test": "base test"
   },
   "devDependencies": {
-    "@dword-design/base": "^8.6.12",
+    "@dword-design/base": "^9.0.0",
     "@dword-design/base-config-component": "^1.1.35"
   },
   "engines": {
