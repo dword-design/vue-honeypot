@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/dword-design/vue-honeypot/compare/v1.0.6...v2.0.0) (2023-01-07)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#8](https://github.com/dword-design/vue-honeypot/issues/8)) ([4e747e2](https://github.com/dword-design/vue-honeypot/commit/4e747e2d521a19adf1485b0668120cb0cb7823bd))
+
+
+### BREAKING CHANGES
+
+* Drop Node 12 support
+
 ## [1.0.6](https://github.com/dword-design/vue-honeypot/compare/v1.0.5...v1.0.6) (2022-09-21)
 
 
