@@ -16,6 +16,7 @@
   "funding": "https://github.com/sponsors/dword-design",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
+  "type": "module",
   "main": "dist/index.ssr.js",
   "unpkg": "dist/index.min.js",
   "module": "dist/index.esm.js",
@@ -26,17 +27,18 @@
   "scripts": {
     "checkUnknownFiles": "base checkUnknownFiles",
     "commit": "base commit",
+    "depcheck": "base depcheck",
     "lint": "base lint",
     "prepare": "base prepare",
     "prepublishOnly": "base prepublishOnly",
     "test": "base test"
   },
   "devDependencies": {
-    "@dword-design/base": "^8.6.12",
+    "@dword-design/base": "^9.2.0",
     "@dword-design/base-config-component": "^1.1.35"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "publishConfig": {
     "access": "public"
