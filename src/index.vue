@@ -22,7 +22,7 @@ export default {
     validate() {
       if (this.value) {
         throw new Error(
-          'Looks like you are a bot. You have filled out the legendary honeypot field!'
+          'Looks like you are a bot. You have filled out the legendary honeypot field!',
         )
       }
     },
