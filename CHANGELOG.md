@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/dword-design/vue-honeypot/compare/v2.0.0...v3.0.0) (2023-06-06)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#14](https://github.com/dword-design/vue-honeypot/issues/14)) ([5d9a652](https://github.com/dword-design/vue-honeypot/commit/5d9a652712cc62ed7b71f866a20bd8bdec75d14f))
+
+
+### BREAKING CHANGES
+
+* drop node 14, vue 3
+
 # [2.0.0](https://github.com/dword-design/vue-honeypot/compare/v1.0.6...v2.0.0) (2023-01-07)
 
 

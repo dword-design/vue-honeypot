@@ -1,6 +1,6 @@
 {
   "name": "vue-honeypot",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A simple honeypot component for Vue.js.",
   "keywords": [
     "component",
