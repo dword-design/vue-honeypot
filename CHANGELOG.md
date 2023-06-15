@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/dword-design/vue-honeypot/compare/v3.0.0...v3.0.1) (2023-06-15)
+
+
+### Bug Fixes
+
+* foo ([0d9322d](https://github.com/dword-design/vue-honeypot/commit/0d9322dcbcb292ec99d8dd7352baffc0412b96d2))
+
 # [3.0.0](https://github.com/dword-design/vue-honeypot/compare/v2.0.0...v3.0.0) (2023-06-06)
 
 
