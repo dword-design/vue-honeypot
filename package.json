@@ -34,7 +34,7 @@
     "test": "base test"
   },
   "devDependencies": {
-    "@dword-design/base": "^10.0.5",
+    "@dword-design/base": "^11.0.0",
     "@dword-design/base-config-component": "^3.0.3",
     "@dword-design/functions": "^5.0.20",
     "@dword-design/puppeteer": "^6.0.10",
@@ -48,7 +48,7 @@
     "tree-kill-promise": "^3.0.14"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "publishConfig": {
     "access": "public"
