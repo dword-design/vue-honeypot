@@ -95,3 +95,50 @@ test('valid', async ({ page }, testInfo) => {
     await kill(nuxt.pid!);
   }
 });
+
+test('options api', async ({ page }, testInfo) => {
+  const cwd = testInfo.outputPath();
+
+  await fs.outputFile(
+    pathLib.join(cwd, 'app', 'pages', 'index.vue'),
+    endent`
+      <template>
+        <form :class="{ sent }" @submit.prevent="submit">
+          <self ref="honeypot" class="self" />
+          <button type="submit" />
+        </form>
+      </template>
+
+      <script lang="ts">
+      import { ref, useTemplateRef } from 'vue'
+
+      import Self from '@@/../../src/index.vue';
+
+      export default {
+        components: { Self },
+        data: () => ({ sent: false }),
+        methods: {
+          submit() {
+            this.$refs.honeypot.validate();
+            this.sent = true;
+          },
+        },
+      };
+      </script>
+    `,
+  );
+
+  const port = await getPort();
+  const nuxt = execaCommand('nuxt dev', { cwd, env: { PORT: String(port) } });
+
+  try {
+    await nuxtDevReady(port);
+    await page.goto(`http://localhost:${port}`);
+    await waitForHydration(page, '', 'hydration');
+    await page.locator('.self').getByRole('textbox').fill('foo');
+    await page.locator('button[type="submit"]').click();
+    await expect(page.locator('form')).not.toContainClass('sent');
+  } finally {
+    await kill(nuxt.pid!);
+  }
+});
