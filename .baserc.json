@@ -1,3 +1,6 @@
 {
+  "depcheckConfig": {
+    "ignoreMatches": ["@playwright/browser-chromium"]
+  },
   "name": "@dword-design/component"
 }

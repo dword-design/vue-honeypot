@@ -15,17 +15,18 @@
   </label>
 </template>
 
-<script>
-export default {
-  data: () => ({ value: '' }),
-  methods: {
-    validate() {
-      if (this.value) {
-        throw new Error(
-          'Looks like you are a bot. You have filled out the legendary honeypot field!',
-        )
-      }
-    },
-  },
-}
+<script setup lang="ts">
+import { ref } from 'vue';
+
+const value = ref('');
+
+const validate = () => {
+  if (value.value) {
+    throw new Error(
+      'Looks like you are a bot. You have filled out the legendary honeypot field!',
+    );
+  }
+};
+
+defineExpose({ validate });
 </script>
