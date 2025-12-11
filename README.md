@@ -78,7 +78,7 @@ Add to local components:
 
 ```html
 <script>
-import VueHoneypot from 'vue-honeypot';
+import VueHoneypot from 'vue-honeypot'
 
 export default {
   components: {
@@ -91,17 +91,17 @@ export default {
 Or register as a global component:
 
 ```js
-import VueHoneypot from 'vue-honeypot';
+import VueHoneypot from 'vue-honeypot'
 
-app.component('VueHoneypot', VueHoneypot);
+app.component('VueHoneypot', VueHoneypot)
 ```
 
 Or register as a plugin:
 
 ```js
-import VueHoneypot from 'vue-honeypot';
+import VueHoneypot from 'vue-honeypot'
 
-app.use(VueHoneypot);
+app.use(VueHoneypot)
 ```
 
 ## Install via CDN
