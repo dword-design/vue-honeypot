@@ -1,3 +1,16 @@
+# [4.0.0](https://github.com/dword-design/vue-honeypot/compare/v3.0.1...v4.0.0) (2025-12-11)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#47](https://github.com/dword-design/vue-honeypot/issues/47)) ([a8359d0](https://github.com/dword-design/vue-honeypot/commit/a8359d0870083a21d9a37487b35f257e84685500))
+* update config files ([5da7289](https://github.com/dword-design/vue-honeypot/commit/5da7289e5f6c584f9dec4de39155ec7d81997568))
+
+
+### BREAKING CHANGES
+
+* node >= 22
+
 ## [3.0.1](https://github.com/dword-design/vue-honeypot/compare/v3.0.0...v3.0.1) (2023-06-15)
 
 
