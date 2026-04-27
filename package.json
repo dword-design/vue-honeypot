@@ -46,7 +46,7 @@
   "devDependencies": {
     "@dword-design/base": "^16",
     "@dword-design/base-config-component": "^7",
-    "@nuxt/test-utils": "^3.21.0",
+    "@nuxt/test-utils": "^4.0.0",
     "@playwright/browser-chromium": "^1.57.0",
     "@playwright/test": "^1.57.0",
     "@types/fs-extra": "^11.0.4",
