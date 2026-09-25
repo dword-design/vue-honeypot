@@ -44,7 +44,7 @@
     "verify": "base verify"
   },
   "devDependencies": {
-    "@dword-design/base": "^16",
+    "@dword-design/base": "^17.0.0",
     "@dword-design/base-config-component": "^7",
     "@nuxt/test-utils": "^3.21.0",
     "@playwright/browser-chromium": "^1.57.0",
